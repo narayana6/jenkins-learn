@@ -20,11 +20,13 @@ pipeline {
             steps {
                 sh 'echo This is Test'
                 sh 'sleep 10'
+        
             }
         }
         stage('Deploy') {
             steps {
                 sh 'echo This is Deploy'
+                sh this is Nasa
             }
         }
     }
