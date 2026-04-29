@@ -20,3 +20,5 @@ pipeline {
                 sh 'echo This is Deploy'
             }
         }
+    }
+}
