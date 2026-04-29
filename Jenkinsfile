@@ -26,7 +26,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'echo This is Deploy'
-                sh 'this is Nasa'
+                sh 'echo this is Nasa'
             }
         }
     }
